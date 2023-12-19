@@ -1,0 +1,37 @@
+.main{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+
+.main h1{
+    width: 15rem;
+    padding: 0 6rem;
+}
+.main p{
+    width: 20rem;
+    padding:0 4rem;
+}
+.main-b img{
+    width: 20rem;
+    height: 10rem;
+}
+.main-c img{
+    width: 20rem;
+    height: 10rem;
+}
+.main-d img{
+    width: 20rem;
+    height: 10rem;
+}
+
+@media screen and (max-width: 1000px){
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
