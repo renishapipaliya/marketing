@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./HeroImgStyles.css"
 import React from 'react'
 
@@ -11,9 +12,13 @@ function HeroImg() {
       </div>
       <div className="content">
         <h1>TRANSFORMING ENTERPRISE IT</h1>
-        <div className="button">
-          <button className="btn">Project</button>
-          <button className="btn-light">Contact Us</button>
+        <div className="btntag">
+          <Link to="/services" className="btn">
+            Services
+          </Link>
+          <Link to="/contact" className="btn btn-light">
+            Contact
+          </Link>
         </div>
       </div>
     </div>

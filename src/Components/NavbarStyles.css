@@ -15,7 +15,7 @@ body {
   height: 90px;
   position: fixed;
   z-index: 10;
-   background: linear-gradient(to right, #00093c, #2d0b00);
+   /* background: linear-gradient(to right, #00093c, #2d0b00); */
   padding: 2rem 0;
 }
 .header-bg {
@@ -95,5 +95,9 @@ button {
   text-decoration: none;
   color: #fff !important;
   font-weight: 600;
+}
+.header .logo img {
+  height: 30%;
+  width: 30%;
 }
 }

@@ -30,9 +30,7 @@ function Footer() {
             <li>
               <a href="Services">Services</a>
             </li>
-            <li>
-              <a href="Project">Project</a>
-            </li>
+            
             <li>
               <a href="contact">Contact</a>
             </li>
