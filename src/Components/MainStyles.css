@@ -23,7 +23,7 @@ body{
 width: 30%;
 text-align: start;
 padding: 1rem 3.5rem;
-box-shadow: 0 5px 25px 2px rgb(83, 83, 204);
+box-shadow: 0 5px 25px 2px rgb(83, 83, 204, 0.454);
 }
 
 .m-image img{

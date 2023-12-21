@@ -4,7 +4,8 @@ import Navbar from "../Components/Navbar";
 import HeroImg from "../Components/HeroImg";
 import HeroUs from "../Components/HeroUs";
 import Footer from "../Components/Footer";
-// import Mid from "../Components/Mid";
+import HomeA from "../Components/HomeA";
+import HomeC from "../Components/HomeC";
 
 const Home = () => {
   return (
@@ -12,7 +13,8 @@ const Home = () => {
       <Navbar />
       <HeroImg />
       <HeroUs/>
-      {/* <Mid/> */}
+      <HomeA />
+      <HomeC />
       <Footer/>
     </div>
   );
